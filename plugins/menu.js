@@ -29,31 +29,29 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, %name!
-┃
-┃✾ Tersisa *%limit Limit*
-┃✾ Role *%role*
-┃✾ Level *%level (%exp / %maxexp)* 
-┃✾ [%xp4levelup]
-┃✾ %totalexp XP secara Total
-┗━ꕥ
-┏━ꕥ 
-┃✾ Hari : *%week %weton* 
-┃✾ Tanggal : *%date*
-┃✾ Tanggal Islam : *%dateIslamic*
-┃✾ Jam : *%time Wib*
-┗━ꕥ
-┏━ꕥ
-┃✾ Uptime: *%uptime (%muptime)*
-┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://youtu.be/Sgb5BVOW66Y
-┗━━━━━━ꕥ
+┏───〔 *${namabot}* 〕─▣
+│ Hai, %name!
+│
+│⊗ Tersisa *%limit Limit*
+│⊗ Role *%role*
+│⊗ Level *%level (%exp / %maxexp)* 
+│⊗ [%xp4levelup]
+│⊗ %totalexp XP secara Total
+┗─▣
+┏─▣ 
+│⊗ Hari : *%week %weton* 
+│⊗ Tanggal : *%date*
+│⊗ Tanggal Islam : *%dateIslamic*
+│⊗ Jam : *%time Wib*
+┗─▣
+┏─▣
+│⊗ Uptime: *%uptime (%muptime)*
+│⊗ Database: %rtotalreg dari %totalreg
+┗──────▣
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ ⎙ %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '┏─「 %category 」─▣',
+  body: '│ ► %cmd %islimit %isPremium',
+  footer: '┗────▣\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
@@ -176,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
              {
              callButton: {
                displayText: '𝚙𝚑𝚘𝚗𝚎 𝚗𝚞𝚖𝚋𝚎𝚛',
-               PhoneNumber: '6288279268363'
+               PhoneNumber: '6285742344873'
              }
 
            },
@@ -196,7 +194,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
            },
            {
              quickReplyButton: {
-               displayText: 'YukiBot 𝚝𝚎𝚊𝚖',
+               displayText: 'Komi - Botz 𝚝𝚎𝚊𝚖',
                id: '.tqto',
              }
            }]
